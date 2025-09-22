@@ -5,6 +5,7 @@ import './App.css'
 import './index.css'
 import Navbar from './components/NavBar.jsx'
 import ShopPage from './pages/Shop.jsx';
+import Features from './components/Features.jsx'
 import Footer from './components/Footer.jsx'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ShopPage />} />
         </Routes>
+        <Features />
         <Footer />
       </Router>
     </>
