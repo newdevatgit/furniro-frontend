@@ -51,7 +51,7 @@ const ProductCard = ({ product }) => {
         <img
           src={imageUrl}
           alt={name}
-          className="w-full h-full object-cover object-center"
+          className="w-full h-70 object-cover object-center"
         />
         {label && (
           <div
