@@ -5,7 +5,7 @@ const ShopHero = () => {
     <div className="relative h-48 sm:h-64 md:h-72 bg-gray-200">
       {/* Background Image */}
       <img
-        src="src/assets/1461f3d6ff74c027a1888544144abe4be6e02cbf.jpg"
+        src="https://github.com/newdevatgit/furniro-frontend/blob/master/src/assets/1461f3d6ff74c027a1888544144abe4be6e02cbf.jpg?raw=true"
         alt="Modern living room with furniture"
         className="absolute inset-0 w-full h-full object-cover filter blur-ssm brightness-75"
       />

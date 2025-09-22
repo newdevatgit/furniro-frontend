@@ -11,7 +11,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="flex w-[50px]items-center space-x-2">
-              <img src="src/assets/2727769ba74736d502746301ed573ed8940fc322.png" alt="Furniro Logo" className="h-8 w-8" />
+              <img src="https://github.com/newdevatgit/furniro-frontend/blob/master/src/assets/2727769ba74736d502746301ed573ed8940fc322.png?raw=true" alt="Furniro Logo" className="h-8 w-8" />
               <span className="text-3xl font-bold text-gray-800">Furniro</span>
             </a>
           </div>
