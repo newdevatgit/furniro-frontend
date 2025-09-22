@@ -19,7 +19,7 @@ const ShopPage = () => {
     if (filters.maxPrice) query += `&maxPrice=${filters.maxPrice}`;
     if (sort.sortBy) query += `&sortBy=${sort.sortBy}&sortOrder=${sort.sortOrder}`;
 
-    const res = await fetch(`http://localhost:5000/api/products${query}`);
+    const res = await fetch(`https://furniro-backend-sx92.onrender.com/api/products${query}`);
     const data = await res.json();
     setProducts(data.products);
     setTotal(data.total);
