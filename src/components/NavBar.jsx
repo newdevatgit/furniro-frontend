@@ -6,29 +6,12 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-[1440px] mx-auto max-h-[100px] px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center p-4 justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center space-x-2">
-              <svg
-                className="h-8 w-auto"
-                viewBox="0 0 38 38"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 38C29.4934 38 38 29.4934 38 19C38 8.50659 29.4934 0 19 0C8.50659 0 0 8.50659 0 19C0 29.4934 8.50659 38 19 38Z"
-                  fill="#B88E2F"
-                />
-                <path
-                  d="M11.2338 24.2835L19.0002 10.4545L26.7666 24.2835H11.2338Z"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+            <a href="/" className="flex w-[50px]items-center space-x-2">
+              <img src="src/assets/2727769ba74736d502746301ed573ed8940fc322.png" alt="Furniro Logo" className="h-8 w-8" />
               <span className="text-3xl font-bold text-gray-800">Furniro</span>
             </a>
           </div>
