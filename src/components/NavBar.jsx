@@ -10,9 +10,9 @@ const Navbar = () => {
         <div className="flex items-center p-4 justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="flex w-[50px]items-center space-x-2">
-              <img src="https://github.com/newdevatgit/furniro-frontend/blob/master/src/assets/2727769ba74736d502746301ed573ed8940fc322.png?raw=true" alt="Furniro Logo" className="h-8 w-8" />
-              <span className="text-3xl font-bold text-gray-800">Furniro</span>
+            <a href="/" className="flex items-center">
+              <img src="https://github.com/newdevatgit/furniro-frontend/blob/master/src/assets/2727769ba74736d502746301ed573ed8940fc322.png?raw=true" alt="Furniro Logo" className="h-16 w-16" />
+              <span className="text-3xl py-4 font-bold text-gray-800">Furniro</span>
             </a>
           </div>
 
